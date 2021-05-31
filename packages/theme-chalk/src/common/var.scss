@@ -81,7 +81,7 @@ $--border-style-base: solid !default;
 $--border-color-hover: $--color-text-placeholder !default;
 $--border-base: $--border-width-base $--border-style-base $--border-color-base !default;
 /// borderRadius|1|Radius|0
-$--border-radius-base: 4px !default;
+$--border-radius-base: 2px !default;
 /// borderRadius|1|Radius|0
 $--border-radius-small: 2px !default;
 /// borderRadius|1|Radius|0
@@ -422,15 +422,15 @@ $--notification-danger-icon-color: $--color-danger !default;
 
 /* Input
 -------------------------- */
-$--input-font-size: $--font-size-base !default;
+$--input-font-size: 12px !default;
 /// color||Color|0
-$--input-font-color: $--color-text-regular !default;
+$--input-font-color: #fff !default;
 /// height||Other|4
 $--input-width: 140px !default;
 /// height||Other|4
 $--input-height: 40px !default;
 $--input-border: $--border-base !default;
-$--input-border-color: $--border-color-base !default;
+$--input-border-color: transparent !default;
 /// borderRadius||Border|2
 $--input-border-radius: $--border-radius-base !default;
 $--input-border-color-hover: $--border-color-hover !default;
@@ -628,12 +628,12 @@ $--dialog-padding-primary: 20px !default;
 /* Table
 -------------------------- */
 /// color||Color|0
-$--table-border-color: $--border-color-lighter !default;
+$--table-border-color: #1C1F56 !default;
 $--table-border: 1px solid $--table-border-color !default;
 /// color||Color|0
-$--table-font-color: $--color-text-regular !default;
+$--table-font-color: #BCC2E1 !default;
 /// color||Color|0
-$--table-header-font-color: $--color-text-secondary !default;
+$--table-header-font-color: #fff!default;
 /// color||Color|0
 $--table-row-hover-background-color: $--background-color-base !default;
 $--table-current-row-background-color: $--color-primary-light-9 !default;

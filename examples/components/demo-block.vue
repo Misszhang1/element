@@ -123,7 +123,7 @@
       border-top: solid 1px #eaeefb;
       height: 44px;
       box-sizing: border-box;
-      background-color: #fff;
+      background-color: transparent;
       border-bottom-left-radius: 4px;
       border-bottom-right-radius: 4px;
       text-align: center;
